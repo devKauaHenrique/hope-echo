@@ -27,7 +27,7 @@
 
 <body class="font-poppins">
     <main class="w-full h-screen bg-home bg-cover bg-center">
-        <header class="bg-verde fixed w-full z-50">
+        <header class="bg-verde sticky top-0 z-50">
             <nav class="w-full h-20 flex items-center justify-between px-2 md:px-8">
                 <div class="flex items-center">
                     <a href="#" class="flex-shrink-0">
@@ -86,14 +86,14 @@
         <p class="md:text-sm text-xs">Utilizamos cookies para oferecer melhor experiência, melhorar o desempenho,
             analisar como você interage em nosso site e personalizar conteúdo. "Configurações de Cookies" para
             selecionar suas opções de cookie.</p>
-        <div id="quem-somos" class="flex gap-4 mt-2">
+        <div class="flex gap-4 mt-2">
             <button id="rejeitar"
                 class="border-2 border-verde text-verde font-semibold w-24 h-10 md:px-4 md:py-2">Rejeitar</button>
             <button id="aceitar" class="bg-verde text-white font-semibold w-24 h-10 md:px-4 md:py-2">Aceitar</button>
         </div>
     </div>
 
-    <section class="w-full h-full bg-white flex flex-col items-center px-6 py-6">
+    <section id="quem-somos" class="w-full h-full bg-white flex flex-col items-center px-6 py-6">
         <h1 class="text-verde text-3xl md:text-4xl font-bold">Quem somos</h1>
         <div class="text-center lg:text-lg flex flex-col gap-2 mt-4 mb-4">
             <p class="max-w-md md:max-w-4xl">Na Hope Echo, acreditamos que a esperança é uma força poderosa capaz de
